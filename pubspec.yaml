@@ -1,0 +1,45 @@
+name: pos_app
+description: "SunPos - Flutter Android App (CSC2074 project)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Local database
+  sqflite: ^2.4.1
+  path: ^1.9.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Formatting
+  intl: ^0.20.2
+
+  # Cashier session persistence
+  shared_preferences: ^2.3.5
+
+  # Menu item photos
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+
+  # Bluetooth thermal receipt printer (Android SPP)
+  blue_thermal_printer: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
