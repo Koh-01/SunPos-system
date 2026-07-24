@@ -52,6 +52,3 @@ app.*.map.json
 
 # OS
 .DS_Store
-
-# Claude Code session state (not project source)
-.claude/
